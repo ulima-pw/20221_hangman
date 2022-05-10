@@ -5,3 +5,7 @@
 .refran {
     letter-spacing: 2pt;
 }
+
+.oculto {
+    display: none;
+}

@@ -13,20 +13,22 @@
     <h1>Ahorcado</h1>
     <div class="row">
         <div class="col-md">
-            <img class="img-fluid imagen" src="/imagenes/Hangman-0.png" />
+            <img id="imagen" class="img-fluid imagen" 
+                src="/imagenes/Hangman-0.png" />
         </div>
         <div class="col-md">
             <div id="divRefran" class="mt-3 fs-1 text-center refran">
                 A CABALLO REGALADO  NO SE LE MIRA EL DIENTE
             </div>
-            <input class="form-control mt-3" type="text" />
+            <input id="inputLetras" class="form-control mt-3" 
+                type="text" readonly/>
             <div id="divMensajes" class="mt-3">
-                <div class="alert alert-danger">
+                <!--<div id="mensajePerdedor" class="alert alert-danger oculto">
                     Perdió
                 </div>
-                <div class="alert alert-success">
+                <div id="mensajeGanador" class="alert alert-success oculto">
                     Ganó
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
